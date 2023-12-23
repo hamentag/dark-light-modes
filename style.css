@@ -70,3 +70,9 @@
     background: rgb(75, 75, 75, 0.5);
     height: 5vh;
 }
+
+/* Dark mode */
+
+html.dark{
+    background-color: black;
+}
