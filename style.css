@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    width: 42rem;
+    border: 2px solid rgba(75, 75, 75, 0.5);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+#header{
+    height: 3rem;
+    background-color: rgb(164, 198, 239, 50%);
+    border-bottom: 1px dashed rgb(128, 128, 128, 0.6);
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end;    */
+}
+#theme-selector{
+    height: 2rem;
+    margin: 5px 20px;
+    padding: 5px 10px;
+}
+
+#window1{
+    background: rgba(31, 92, 225, 0.4);
+    height: 22rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;   
+}
+#window11{
+    width: 18rem;
+    height: 12rem;
+    background: rgb(222, 222, 222, 0.9);
+    border: 1px solid rgb(128, 128, 128, 0.6);
+    margin: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+#lines{
+    padding: 20px;
+}
+.line{
+    height: 25px;
+    border-bottom: 1.5px solid black;
+}
+.line:nth-of-type(1), .line:nth-of-type(2), .line:nth-of-type(3){
+    width: 60%;
+}
+.line:nth-of-type(4){
+    width: 45%;
+}
+#button-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+}
+.button{
+    width: 70px;
+    height: 30px;
+    background-color: rgba(160, 207, 245, 0.5);  
+    margin: 10px;
+    border: 1px solid rgb(128, 128, 128, 0.9);
+    border-radius: 4px;
+}
+
+#window2{
+    background: rgb(75, 75, 75, 0.5);
+    height: 5vh;
+}
